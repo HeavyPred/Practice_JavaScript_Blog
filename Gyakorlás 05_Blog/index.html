@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>WG-Blog</title>
+</head>
+
+<body>
+	<div class="container">
+		<header id="mainhead">
+			<h1>WG Blog, JS practice</h1>
+		</header>
+		<form onsubmit="return writeBlog()" action="#">
+			<div class="form">
+				<h2>Írj üzenetet a többieknek!</h2>
+				<label class="label">Név:</label>
+				<input type="text" class="short-text-input" id="name"> <br>
+				<label class="label">Tárgy:</label>
+				<input type="text" class="short-text-input" id="about"> <br>
+				<label class="label">Üzenet:</label>
+				<textarea class="long-text-input" id="message"></textarea>
+				<button type="submit" id="send" class="btn">Küldés</button>
+				<div id="error"></div>
+			</div>
+			</form>
+		<section id="mainsect">
+			<!--<div class="even-blog">
+				<h2>Tárgy</h2>
+				<h3>Feladó</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco</p>
+				<p class="date">Dátum-idő</p>
+			</div>
+			<div class="odd-blog">
+				<h2>Tárgy</h2>
+				<h3>Feladó</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco</p>
+				<p class="date">Dátum-idő</p>
+			</div>-->
+		</section>
+		<footer id="mainfoot">
+			<p>Copyright &copy;2023 All Rights Reserved, WG-Networks</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="javascript/main.js"></script>
+</body>
+</html>
